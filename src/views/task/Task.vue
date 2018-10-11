@@ -1,0 +1,1 @@
+<template>	<section>		task	</section></template><script>	export default {		name: "Task"	}</script><style scoped></style>

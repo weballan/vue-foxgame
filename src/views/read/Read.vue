@@ -1,0 +1,1 @@
+<template>	<section>		read	</section></template><script>	export default {		name: "Read"	}</script><style scoped></style>

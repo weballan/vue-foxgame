@@ -1,0 +1,1 @@
+<template>	<div class="header">		<!--<div class="left-back"><i></i></div>-->		<h1 v-text="title"></h1>		<div class="right-icon"><i></i></div>	</div></template><script>	export default {		name: "ComHeader",		props:{			title:{				type:String,				default:''			}		}	}</script>
