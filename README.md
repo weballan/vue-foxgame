@@ -3,7 +3,7 @@
 > A Vue.js project
 
 # Examples
-> [tabbar demo](https://weballan.github.io/web/foxgame/index.html#/user)
+> [foxgame demo](https://weballan.github.io/web/foxgame/index.html#/user)
 
 # Install
 npm install
