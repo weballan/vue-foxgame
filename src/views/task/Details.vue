@@ -1,1 +1,0 @@
-<template>	<section>		任务Details	</section></template><script>	export default {		name: "Details"	}</script><style scoped></style>

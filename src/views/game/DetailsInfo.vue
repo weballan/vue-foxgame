@@ -1,1 +1,0 @@
-<template>	<div>		游戏Details	</div></template><script>	export default {		name: "DetailsInfo",		mounted(){		}	}</script><style scoped></style>
