@@ -1,0 +1,1 @@
+const formatPhone=(phone=>{	if(phone){		return phone.slice(0,3)+'****'+phone.slice(-4);	}});export default formatPhone

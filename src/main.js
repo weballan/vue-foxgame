@@ -5,13 +5,15 @@ import App from './App'
 import router from './router'
 import store from './store'
 import MintUi from 'mint-ui'
+import Http from './config/Http'
+import './filters'
 
-import './config/customers'
 import 'mint-ui/lib/style.min.css'
 import './scss/style.scss'
 
-Vue.use(MintUi)
+Vue.use(MintUi);
 Vue.config.productionTip = false;
+Vue.prototype.$http=Http;
 
 /* eslint-disable no-new */
 new Vue({

@@ -1,0 +1,1 @@
+const formatDate=(date=>{	const newDate=new Date(date),		year=newDate.getFullYear(),		month=newDate.getMonth()+1,		day=newDate.getDate(),		hours=newDate.getHours(),		minutes=newDate.getMinutes();	return [year,month,day].map(formatNum).join('-') + [hours,minutes].map(formatNum).join(':');});function formatNum(n){	n=n.toString();	return n[1]?n:'0'+n;}
