@@ -2,9 +2,9 @@
 	<div id="app">
 		<com-header :title="$route.meta.title" @history-chang="historyChang"></com-header>
 		<transition name="router-fade" mode="out-in" >
-			<router-view >
-
-			</router-view>
+			<keep-alive>
+				<router-view />
+			</keep-alive>
 		</transition>
 	</div>
 </template>
